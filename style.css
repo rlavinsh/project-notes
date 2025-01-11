@@ -23,18 +23,52 @@
 
 #section {
     width: calc(100% - 200px);
-    height: 500px;
-    background-color: thistle;
+    /* height: 500px; */
+    /* background-color: thistle; */
     margin-top: 60px;
     margin-left: 200px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    /* align-content: center; */
     gap: 24px;
 }
 
 .card {
-    width: 21%;
-    height: 150px;
+    /* border-radius: 25px; */
+    width: 22%;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* height: 150px; */
     /* background-color: blueviolet; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+#content {
+    display: flex;
+    column-gap: 20px;
+    /* align-content: center; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#logo {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+#thumb {
+    border-radius: 10px;
+}
+
+#channelName {
+    color: grey;
+    font-size: 15px;
+}
+
+#channelName:hover {
+    color: black;
+    cursor: pointer;
+    /* font-size: 15px; */
 }
